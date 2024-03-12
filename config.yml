@@ -1,0 +1,14 @@
+regions: # regions to scan
+- ap-south-1 # Mumbai
+- us-east-1 # N. Virginia
+- global
+
+account-blocklist: # dont touch
+- "999999999999" # production
+
+resource-types: 
+  excludes: # don't delete these
+  - EC2KeyPair
+
+accounts:
+  "123456": # AWS ACCOUNT-ID
