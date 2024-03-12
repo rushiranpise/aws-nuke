@@ -14,4 +14,4 @@ resource-types:
   - EC2DefaultSecurityGroupRule
 
 accounts:
-  "your-account-id": # AWS ACCOUNT-ID
+  "your-account-id": {} # AWS ACCOUNT-ID
