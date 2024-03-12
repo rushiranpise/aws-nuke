@@ -1,5 +1,5 @@
 # aws-nuke
-Script for using AWS Nuke
+Guide for using AWS Nuke
 
 # Install AWS Nuke on Ubuntu / WSL
 
@@ -29,3 +29,6 @@ sudo mv aws-nuke-v2.25.0-linux-amd64 /usr/local/bin/aws-nuke
 4. Run the below command to nuke all
 
 <code>aws-nuke -c config.yml --access-key-id="your-access-key" --secret-access-key="your-secret-key" --no-dry-run</code>
+
+# More Info
+https://github.com/rebuy-de
