@@ -9,6 +9,8 @@ account-blocklist: # dont touch
 resource-types: 
   excludes: # don't delete these
   - EC2KeyPair
+  - BillingCostandUsageReport
+  - Budget
 
 accounts:
   "123456": # AWS ACCOUNT-ID
