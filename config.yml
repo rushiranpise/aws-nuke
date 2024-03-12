@@ -11,6 +11,7 @@ resource-types:
   - EC2KeyPair
   - BillingCostandUsageReport
   - Budget
+  - EC2DefaultSecurityGroupRule
 
 accounts:
-  "123456": # AWS ACCOUNT-ID
+  "your-account-id": # AWS ACCOUNT-ID
